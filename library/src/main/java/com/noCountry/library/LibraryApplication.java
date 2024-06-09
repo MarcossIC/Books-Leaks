@@ -10,12 +10,8 @@ public class LibraryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LibraryApplication.class, args);
-
-
 			String uuidString = generateRandomUUID();
 			System.out.println("UUID generado: " + uuidString);
-
-
 	}
 	public static String generateRandomUUID() {
 		UUID uuid = UUID.randomUUID();
